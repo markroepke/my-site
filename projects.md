@@ -19,6 +19,10 @@ I am a credited contributor on `cattonum` after adding median target encoding to
 
 ## Apps
 
-### Butler County Donut Trail - An interactive web app
+### Shiny Recipe Book - A digital recipe book
+
+This is an <a href="https://markroepke.shinyapps.io/shiny_recipe_book/" target="_blank" class="class2">interactive web app</a> designed to replace a standard family recipe book. It was built in Shiny and can be gound on <a href="http://www.github.com/markroepke/shiny_recipe_book" target="_blank" class="class2">GitHub</a>
+
+### Butler County Donut Trail - A mapping of the Butler County Donut Trail
 
 This is an <a href="https://markroepke.shinyapps.io/butler_county_donut_trail/" target="_blank" class="class2">interactive web app</a> for investigating the stops along the Butler County Donut Trail in Southwest Ohio. It was built using Shiny and can be found on <a href="http://www.github.com/markroepke/donut_trail_app" target="_blank" class="class2">GitHub</a>.
