@@ -5,6 +5,16 @@ permalink: /projects/
 ---
 I've completed a variety of data science projects outside of my professional and academic work. A few examples are below:
 
+## Trainings
+
+### Python for Data Science - Business Analytics @ University of Cincinnati 
+
+I am co-designed, co-developing, and co-delivering two separate two-day data-science--focused Python training workshops for the University of Cincinnati. The details are as follows:
+
+  1. *Introduction to Python for Data Science* - this two-day workshop will focus on developing the fundamentals of Python of a programming language, learning the basics of data wrangling with `pandas` data frames, and teaching a mental model of Python as a programming language to enable future self-learning.
+
+  2. *Intermediate Python for Data Science* - this two-day workshop will focus on developing skills in core areas of data science like data visualization while also teaching intermediate programming concepts like control flow, iteration, and function writing in the context of `pandas`.
+
 ## Packages
 
 ### flxr - An R package for retrieving movie data
