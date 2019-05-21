@@ -21,7 +21,7 @@ I am co-designed, co-developing, and co-delivering two separate two-day data-sci
 
   1. <a href="https://github.com/uc-python/intro-python-datasci" target="_blank" class="class2">Introduction to Python for Data Science</a> - this two-day workshop will focus on developing the fundamentals of Python of a programming language, learning the basics of data wrangling with `pandas` data frames, and teaching a mental model of Python as a programming language to enable future self-learning.
 
-  2. <a href="https://github.com/uc-python/intermediate-python-datasci" target="_blank" class="class2">Intermedaite Python for Data Science</a> - this two-day workshop will focus on developing skills in core areas of data science like data visualization while also teaching intermediate programming concepts like control flow, iteration, and function writing in the context of `pandas`.
+  2. <a href="https://github.com/uc-python/intermediate-python-datasci" target="_blank" class="class2">Intermediate Python for Data Science</a> - this two-day workshop will focus on developing skills in core areas of data science like predictive modeling while also teaching intermediate programming concepts like control flow, iteration, and function writing in the context of `pandas`.
 
 <hr>
 <br>
