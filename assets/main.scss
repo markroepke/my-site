@@ -54,3 +54,13 @@ a.class2:hover {
 html {
     max-width: 1800px;
 }
+
+a.post-link {
+  display: block;
+  color: midnightblue;
+  @include relative-font-size(1.5);
+}
+
+a.post-link:hover {
+    color:lightblue;
+}

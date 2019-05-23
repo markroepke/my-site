@@ -204,7 +204,12 @@
 
 .post-link {
   display: block;
+  color: midnightblue;
   @include relative-font-size(1.5);
+}
+
+.post-link:hover {
+    color:lightblue;
 }
 
 
