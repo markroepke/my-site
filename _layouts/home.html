@@ -5,24 +5,27 @@ layout: default
 
   {{ content }}
 
-  <header class="post-header">
-    <h1 class="post-title">{{ "Hi, I'm Mark" | escape }}</h1>
-  </header>
+  <div style="background-color: rgb(220,220,220); padding: 20px">
 
-  <h2>
-  Welcome! My name is Mark Roepke and I'm a data scientist interested in data science education.
-  </h2>
-  <center>
-  <img src="assets/mark.jpg" style="width:23%; height:23%; padding:20px 20px 20px 20px; display:block;"/>
-  </center>
-  <p>
-  For my day job, I work as a Senior Data Scientist at <a href="http://www.8451.com" class="class2">84.51°</a> in the Digital Personalization space and focus on the personalization of recipe-based services and the development of intelligent meal-planning services.
-  </p>
-  <p>
-  I am specifically interested in the area of data science education and provide data science workshops in various data science technologies. I have given workshops in corporate and university settings in R, Python, and GitHub. I am certified by <a href="http://www.rstudio.com" class="class2">RStudio</a> to design and deliver <a href="http://www.tidyverse.org" class="class2">tidyverse</a> training workshops. If you're interested in connecting about providing a data science training workshop, feel free to contact me using a method at the bottom of the site. 
-  </p>
+    <header class="post-header">
+      <h1 class="post-title">{{ "Hi, I'm Mark" | escape }}</h1>
+    </header>
 
-  <hr>
+    <h2>
+    Welcome! My name is Mark Roepke and I'm a data scientist interested in data science education.
+    </h2>
+    <center>
+    <img src="assets/mark.jpg" style="width:23%; height:23%; padding:20px 20px 20px 20px; display:block;"/>
+    </center>
+    <p>
+    For my day job, I work as a Senior Data Scientist at <a href="http://www.8451.com" class="class2">84.51°</a> in the Digital Personalization space and focus on the personalization of recipe-based services and the development of intelligent meal-planning services.
+    </p>
+    <p>
+    I am specifically interested in the area of data science education and provide data science workshops in various data science technologies. I have given workshops in corporate and university settings in R, Python, and GitHub. I am certified by <a href="http://www.rstudio.com" class="class2">RStudio</a> to design and deliver <a href="http://www.tidyverse.org" class="class2">tidyverse</a> training workshops. If you're interested in connecting about providing a data science training workshop, feel free to contact me using a method at the bottom of the site. 
+    </p>
+
+  </div>
+
   <br>
 
   <header class="post-header">
@@ -40,9 +43,9 @@ layout: default
             {{ post.title | escape }}
           </a>
         </h3>
-        {%- if site.show_excerpts -%}
-          {{ post.excerpt }}
-        {%- endif -%}
+        <p>
+          {{ post.excerpt | strip_html | truncatewords:75 }}
+        </p>  
       </li>
       {%- endfor -%}
     </ul>

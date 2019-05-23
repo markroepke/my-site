@@ -28,9 +28,14 @@ layout: default
             {{ post.title | escape }}
           </a>
         </h3>
-        {%- if site.show_excerpts -%}
-          {{ post.excerpt }}
+        {%- if post.preview_image -%}
+          <a class="post-link" href="{{ post.url | relative_url }}">
+            <img class="preview-image" src="{{ post.preview_image }}"/>
+          </a>
         {%- endif -%}
+        <p>
+          {{ post.excerpt | strip_html | truncatewords:75 }}
+        </p>
       </li>
       {%- endfor -%}
     </ul>
