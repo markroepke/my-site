@@ -2,7 +2,7 @@
 layout: post
 title: "White Paper: Data Science Training @ 84.51°"
 date: 2019-05-28
-categories: education work
+categories: posts
 preview_image: "/assets/8451-logo.png"
 ---
 

@@ -2,8 +2,8 @@
 layout: post
 title: "Creating Interactive Slideshows in Jupyter Notebooks"
 date: 2019-05-23
-categories: education jupyter
 preview_image: "/assets/jupyter-notebooks-logo.png"
+categories: posts
 ---
 
 Have you ever wanted to create a slideshow using Python? I've found a lot of useful tools for making slideshows in Jupyter Notebooks while developing Python for data science workshops for the University of Cincinnati and <a href="http://www.8451.com/" target="_blank" class="class2">84.51°</a>, but I'm yet to see all of this information in one place. This blog post changes that by directly teaching you how to create interactive slideshows in Jupyter Notebooks. 
