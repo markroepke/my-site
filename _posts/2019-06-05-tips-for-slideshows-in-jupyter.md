@@ -34,7 +34,7 @@ And then it can be enabled by running:
 jupyter nbextension enable splitcell/splitcell
 ```
 
-More information on installing/enabling Jupyter extensions is available on <a href="https://github.com/ipython-contrib/jupyter_contrib_nbextensions" target="_blank" class="class2">GitHub</a> https://github.com/ipython-contrib/jupyter_contrib_nbextensions
+More information on installing/enabling Jupyter extensions is available on <a href="https://github.com/ipython-contrib/jupyter_contrib_nbextensions" target="_blank" class="class2">GitHub</a>.
 
 #### Using `splitcell`
 
